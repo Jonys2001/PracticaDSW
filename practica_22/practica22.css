@@ -1,0 +1,34 @@
+
+  /* Todos los párrafos de la página */
+  p {
+    color: #555;
+  }
+  
+  /* Todos los párrafos contenidos en #uno */
+  #uno p {
+    color: #336699;
+  }
+  
+  /* Todos los enlaces de la página */
+  a {
+    color: #CC3300;
+  }
+  
+  /* Los elementos "em" contenidos en #uno */
+  #uno em {
+    background-color: #FFFFCC;
+    padding: 3px;
+  }
+  
+  /* Todos los elementos "em" de clase "recalcar" en toda la página */
+  em.recalcar {
+    background-color: #FFCC99;
+    border: 1px solid #FF9900;
+    padding: 3px;
+  }
+  
+  /* Elementos "span" contenidos en .dos */
+  .dos span {
+    font-weight: bold;
+  }
+  
