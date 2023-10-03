@@ -1,0 +1,12 @@
+tr:nth-child(2n+1){
+    background: rgb(70%, 15%, 18%)
+}
+
+tr:nth-last-child(2n+1){
+    background: rgb(70%, 95%, 18%)
+}
+
+section p:nth-last-chield(2n){
+    background: rgb(70%, 95%, 88%)
+
+}
