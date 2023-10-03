@@ -1,0 +1,65 @@
+body {
+    font-size: 16px; /* Tamaño de fuente base para toda la página. */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 80%; /* El ancho del contenedor será el 80% del ancho de su contenedor principal. */
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem; /* El tamaño de fuente será 2 veces el tamaño de fuente base (16px). */
+  }
+  
+  p {
+    font-size: 1.2em; /* El tamaño de fuente será 1.2 veces el tamaño de fuente base (16px). */
+  }
+  
+  .box {
+    width: 10em; /* El ancho de la caja será de 10 veces el tamaño de fuente base (16px). */
+    height: 4rem; /* La altura de la caja será de 4 veces el tamaño de fuente base (16px). */
+    margin: 10px;
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #333;
+    text-align: center;
+  }
+  
+  .em-box {
+    font-size: 1.5em; /* El texto dentro de la caja será 1.5 veces el tamaño de fuente base (16px). */
+  }
+  
+  .rem-box {
+    font-size: 2rem; /* El texto dentro de la caja será 2 veces el tamaño de fuente base (16px). */
+  }
+  
+  .vh-box {
+    height: 50vh; /* La altura de la caja será el 50% de la altura del viewport. */
+  }
+  
+  .vw-box {
+    width: 25vw; /* El ancho de la caja será el 25% del ancho del viewport. */
+  }
+  
+  .percent-box {
+    width: 40%; /* El ancho de la caja será el 40% del ancho de su contenedor. */
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Las columnas tendrán un ancho mínimo de 100px y se expandirán para llenar el espacio disponible. */
+    grid-gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .grid-item {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
