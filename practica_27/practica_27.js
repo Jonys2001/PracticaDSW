@@ -1,3 +1,4 @@
+/* 
 var peso = prompt ("ingrese el peso");
 var opcion = prompt ("ingrese opcion");
 var peso_tierra = 9.80;
@@ -29,3 +30,27 @@ if (opcion = "1") {
     resultado = peso * peso_jupiter / peso_tierra;
     alert("Tu peso em jupiter es  " + resultado);
 }else{ alert("no existe esta opcion");}
+
+
+
+
+for (let i = 0; i < 10; i++) {
+    console.log("hola mundo")
+    
+}
+
+
+var e = 10; 
+while (e <= 20) {
+    alert(e)
+    e = e + 2;
+}
+
+
+do {
+    
+
+
+} while (f < 5);
+
+*/
